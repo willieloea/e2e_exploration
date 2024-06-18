@@ -8,6 +8,8 @@ This repository serves as a laboratory for me to learn about and implement end t
 	* Detox 
 	* Jest
 	* Docker
+	* GitHub Actions
+	* Expo (bare)
 2. Build a small React Native app
 3. Develop e2e test for the app using Detox and Jest
 4. Put the whole thing in a docker container so that tests can be done easily (my lack of docker knowledge prevents me from specifying this goal clearly)
@@ -120,6 +122,10 @@ GitHub actions are a way of automating developer workflows (including testing an
 
 They are triggered when something happens in the repository, like a pull request.
 
-### 1.7 General notes
+### 1.7 Expo (bare)
+#### Definition
+
+
+### 1.8 General notes
 #### Relationship between Detox and Jest
 Jest will be used to run tests, Detox will be used to write the tests. Jest will be executing the Detox tests.
