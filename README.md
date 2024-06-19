@@ -70,7 +70,12 @@ React Native allows the developer to write React apps, which are then translated
 #### Resources
 Articles & YT videos. Didn't track.
 
-### 1.3 Detox
+
+### 1.3 Expo (bare)
+#### Definition
+A wrapper around React Native (command line tools, library for running RN apps)
+
+### 1.4 Detox
 #### Definition
 Framework for making end-to-end tests for React Native apps.
 
@@ -84,7 +89,7 @@ https://wix.github.io/Detox/
 https://www.youtube.com/watch?v=_neMz2_6u20  
 https://youtu.be/Ndof_lgJmx8?feature=shared  
 
-### 1.4 Jest
+### 1.5 Jest
 #### Definition
 Jest is a JavaScript testing framework. It allows you to run tests from the command line.
 
@@ -93,7 +98,7 @@ https://jestjs.io/
 https://jestjs.io/docs/getting-started
 https://www.youtube.com/watch?v=FgnxcUQ5vho
 
-### 1.5 Docker
+### 1.6 Docker
 #### Definition
 Docker is software used to make containers.
 
@@ -116,16 +121,31 @@ https://docs.docker.com/guides/docker-overview/
 https://www.docker.com/resources/what-container/
 https://www.youtube.com/watch?v=R8_veQiYBjI
 
-### 1.6 GitHub Actions
+### 1.7 GitHub Actions
 #### Defninition
 GitHub actions are a way of automating developer workflows (including testing and CI/CD).
 
 They are triggered when something happens in the repository, like a pull request.
 
-### 1.7 Expo (bare)
-#### Definition
-
-
 ### 1.8 General notes
 #### Relationship between Detox and Jest
 Jest will be used to run tests, Detox will be used to write the tests. Jest will be executing the Detox tests.
+
+## Goal 2: Building a React Native app
+I created the RN app using Create React Native App by Expo by running the following in the root directory of the repo:
+```
+> npx create-react-native-app
+```
+I gave the app the name 'e2e_explorer', and chose the 'navigation' template.
+
+Inside the e2e_explorer directory, run 
+```
+> npx expo start
+```
+
+## Goal 3: e2e test with Detox and Jest
+https://wix.github.io/Detox/docs/introduction/environment-setup
+
+## Goal 4: Containerization
+
+## Goal 5: Automated testing with GitHub Actions
