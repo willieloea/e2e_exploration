@@ -1,4 +1,6 @@
 {
+  "name": "e2e_explorer",
+  "displayName": "e2e_explorer",
   "expo": {
     "name": "e2eexplorer",
     "slug": "expo-template-tabs",

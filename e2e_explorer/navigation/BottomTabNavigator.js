@@ -21,6 +21,7 @@ export default function BottomTabNavigator() {
     >
       <BottomTab.Screen
         name="TabOne"
+        testID="tab-one-button"
         component={TabOneNavigator}
         options={{
           headerShown: false,
@@ -31,6 +32,7 @@ export default function BottomTabNavigator() {
       />
       <BottomTab.Screen
         name="TabTwo"
+        testID="tab-two-button"
         component={TabTwoNavigator}
         options={{
           headerShown: false,

@@ -143,14 +143,20 @@ Inside the e2e_explorer directory, run
 npx expo start
 ```
 
-## Goal 3: e2e test with Detox and Jest
+## Goal 3: e2e test with Detox and Jest  
 I installed Jest and Detox, while adding them as dev-dependencies, with the following command in e2e_explorer/:
 ```
 npm install --save-dev jest detox
 ```
 
+Created Detox configuration files
+```
+npx detox init -r jest
+```
+
+### Resources
+https://docs.expo.dev/build-reference/e2e-tests/  
 https://wix.github.io/Detox/docs/introduction/environment-setup
-https://docs.expo.dev/build-reference/e2e-tests/
 
 ## Goal 4: Containerization
 
