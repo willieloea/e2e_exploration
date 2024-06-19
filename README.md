@@ -134,17 +134,23 @@ Jest will be used to run tests, Detox will be used to write the tests. Jest will
 ## Goal 2: Building a React Native app
 I created the RN app using Create React Native App by Expo by running the following in the root directory of the repo:
 ```
-> npx create-react-native-app
+npx create-react-native-app
 ```
 I gave the app the name 'e2e_explorer', and chose the 'navigation' template.
 
 Inside the e2e_explorer directory, run 
 ```
-> npx expo start
+npx expo start
 ```
 
 ## Goal 3: e2e test with Detox and Jest
+I installed Jest and Detox, while adding them as dev-dependencies, with the following command in e2e_explorer/:
+```
+npm install --save-dev jest detox
+```
+
 https://wix.github.io/Detox/docs/introduction/environment-setup
+https://docs.expo.dev/build-reference/e2e-tests/
 
 ## Goal 4: Containerization
 
