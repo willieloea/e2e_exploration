@@ -7,6 +7,12 @@
       "ios",
       "android",
       "web"
-    ]
+    ],
+    "android": {
+      "package": "sbtn.com"
+    },
+    "ios": {
+      "bundleIdentifier": "sbtn.com"
+    }
   }
 }

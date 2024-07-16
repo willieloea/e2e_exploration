@@ -5,13 +5,25 @@ import {
 } from 'react-native';
  
 export default function App() { 
+	const [outputText, setOutputText] = React.useState(
+		'Press the button to log something to the console'
+	);
+	const [counter, setCounter] = React.useState(0);
 	return ( 
 		<View style={styles.container}> 
       <Text>Log something to the console:</Text>
 			<Button 
+				testId="printButton"
 				title="Print"
-				onPress={() => console.log("here we go")}
-			/> 
+				onPress={() => {
+					console.log('Button pressed');
+					setOutputText('Button pressed');
+					// increment counter
+					setCounter(counter + 1);
+				}}
+			/>
+			<Text>{outputText}</Text>
+			<Text>Counter: {counter}</Text>
 		</View> 
 	); 
 } 

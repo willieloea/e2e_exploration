@@ -73,7 +73,7 @@ Articles & YT videos. Didn't track.
 
 ### 1.3 Expo (bare)
 #### Definition
-A wrapper around React Native (command line tools, library for running RN apps)
+A wrapper around React Native (command line tools, library for running RN apps). Expo is a bunch of tools that makes developing RN apps easier, including file routing, and live testing of your app on your phone (with the Expo Go app).
 
 ### 1.4 Detox
 #### Definition
@@ -123,9 +123,9 @@ https://www.youtube.com/watch?v=R8_veQiYBjI
 
 ### 1.7 GitHub Actions
 #### Defninition
-GitHub actions are a way of automating developer workflows (including testing and CI/CD).
-
-They are triggered when something happens in the repository, like a pull request.
+GitHub actions are a way of automating developer workflows (including testing and CI/CD).  
+They are triggered when something happens in the repository, like a pull request.  
+Workflows are defined in .yml files, stored in the ./.github/workflows/ directory of a project
 
 ### 1.8 General notes
 #### Relationship between Detox and Jest

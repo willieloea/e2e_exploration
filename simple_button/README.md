@@ -10,3 +10,5 @@ Run `npm run start`
 
 ## Notes
 Used [this](https://www.geeksforgeeks.org/how-to-create-button-in-react-native-app/) to add a button.
+
+**Goal:** We want an APK in ./android/app/build/outputs/
